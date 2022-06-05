@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    color: black;
+    border: 1px solid black;
+}
+.Opções{
+    display: flex;
+    text-align: right;
+    border: 1px solid black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p{
+    text-align: right;
+}
+
+.SubContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ContainerBanner{
+    width: 100%;
+    height: 310px;
+    background-size: 100%;
+    background-image: url(https://www.gov.br/funarte/pt-br/banners/2021/banner_noticias.jpg);
+}
+
+.CapaBanner{
+    width:100%;
+}
+
+
+.ContainerCard{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background-color: whitesmoke;
+    border: 1px solid black;
+}
+
+.Cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+    
+}
+
+.Card{
+    display: flex;
+    flex-direction: center;
+    justify-content: space-around;
+    align-items: center;
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    
+
+}
+.CardImagem{
+    display: flex;
+    flex-direction: center;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+
+
+
+
+
